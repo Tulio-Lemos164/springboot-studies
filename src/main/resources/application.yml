@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: studies
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/studiesSpringboot"
+    username: postgres
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
